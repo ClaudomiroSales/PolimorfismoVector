@@ -5,6 +5,7 @@ using std::cout;
 
 Forma::Forma()
 {
+    cout << "Criando uma forma.\n";
 }
 
 Forma::~Forma()
