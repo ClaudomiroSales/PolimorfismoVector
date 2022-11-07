@@ -7,7 +7,7 @@ public:
 	Forma();
 	~Forma();
 	
-	double calcArea( ) { return 0; };
+	double calcArea( ) { return 0.0; };
 	
 private:
 
