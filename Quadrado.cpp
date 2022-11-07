@@ -13,3 +13,8 @@ Quadrado::~Quadrado()
 {
     cout << "Destruindo quadrado.\n";
 }
+
+void Quadrado::setLado( double lado )
+{
+    this->lado = lado < 0 ? 0 : lado;
+}

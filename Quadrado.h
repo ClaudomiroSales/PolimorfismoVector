@@ -10,6 +10,8 @@ public:
 	~Quadrado();
 	
 	double calcArea( ) { return lado*lado; };
+
+    void setLado(double);
 	
 private:
     double lado;
