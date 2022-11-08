@@ -5,9 +5,9 @@ class Forma
 {
 public:
 	Forma();
-	~Forma();
+	virtual ~Forma();
 	
-	double calcArea( ) { return 0.0; };
+	virtual double calcArea( ) { return 0.0; };
 	
 private:
 
