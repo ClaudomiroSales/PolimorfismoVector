@@ -18,9 +18,9 @@ int main(int argc, char **argv)
 	formaPtr = new Quadrado();	
 	quadradoPtr = new Quadrado();
 	cout << "Calculando a area\n";
-	cout << "formaPtr\n";
+	cout << "Atraves de formaPtr = new Quadrado\n";
 	cout << formaPtr->calcArea( ) << '\n';
-	cout << "quadradoPtr\n";
+	cout << "Atraves de quadradoPtr = new Quadrado\n";
 	cout << quadradoPtr->calcArea( ) << '\n';
 	
 
