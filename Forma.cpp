@@ -3,7 +3,7 @@
 #include <iostream>
 using std::cout;
 
-Forma::Forma( int a )
+Forma::Forma( )
 {
     cout << "Criando uma forma.\n";
 }
