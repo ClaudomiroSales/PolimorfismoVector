@@ -4,7 +4,7 @@
 class Forma
 {
 public:
-	Forma();
+	Forma( int );
 	virtual ~Forma();
 	
 	virtual double calcArea( ) { return 0.0; };
