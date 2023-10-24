@@ -4,10 +4,10 @@
 using std::cout;
 
 Quadrado::Quadrado()
-:Forma(1)
+: Forma( )
 {
-    lado = 1;
-    cout << "Criando quadrado. Forma(1)\n";
+    lado = 1.0;
+    cout << "Criando quadrado.\n";
 }
 
 Quadrado::~Quadrado()
